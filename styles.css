@@ -1,0 +1,712 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+}
+
+body{
+	background-color: #333;
+}
+
+.container_picture{
+ 	background-image: linear-gradient(purple 11%,orange 43%);
+	width: 100%;
+	height: 40em;
+}
+
+.container_sun{
+    background-image: linear-gradient(yellow,orange);
+	width: 20em;
+	height: 20em;
+	border-radius: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid orangered;
+	position: absolute;
+	top: 9em;
+	left: 40%;
+   }
+
+.container_build{
+    width: 100%;
+	height: 20em;
+	overflow: hidden;
+ 	position: relative;
+    }
+
+.container_move{
+    width: 1400vw;     
+	height: 20em;
+	animation-name: rodar;
+	animation-duration: 12s;   
+	animation-iteration-count: infinite;
+ 	display: flex;
+	flex-wrap: wrap-reverse;
+	position: relative;
+ }
+
+.build1{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 100em;
+	height: 5em;
+ }
+
+.build2{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 10em;
+	margin-left: 2em;
+	display: inline-block;
+}
+
+
+ .container_build-window2{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window2{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build3{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 20em;
+	display: inline-block;
+}
+
+ .container_build-window3{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window3{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build4{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 6em;
+	display: inline-block;
+	margin-left: 6em;
+}
+
+ .container_build-window4{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window4{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+
+.build5{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 15em;
+	display: inline-block;
+}
+
+.container_build-window5{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window5{
+ 	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build6{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 20em;
+	display: inline-block;
+	margin-left: 12em;
+}
+
+
+.container_build-window6{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window6{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build7{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+}
+
+
+.container_build-window7{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window7{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build8{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 9em;
+	display: inline-block;
+	margin-left: 5em;
+}
+
+
+.container_build-window8{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window8{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build9{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 15em;
+	display: inline-block;
+	margin-left: 5em;
+}
+
+.container_build-window9{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window9{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build10{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+}
+
+
+.container_build-window10{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window10{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build11{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+	margin-left: 4em;
+}
+
+
+.container_build-window11{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window11{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+.build12{
+ 	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 14em;
+	display: inline-block;
+	margin-left: 7em;
+}
+
+
+.container_build-window12{
+  	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window12{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+
+.build13{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 60em;
+	height: 5em;
+	display: inline-block;
+} 
+.build14{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+} 
+
+.build15{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+}
+ 
+
+
+.build16{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+} 
+
+.build17{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+}
+ 
+
+.build18{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+} 
+.build19{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+} 
+.build20{
+	background-color: #1b2323;
+	background-image: linear-gradient(orange 4%,#231717 10%);
+	width: 7em;
+	height: 5em;
+	display: inline-block;
+}
+
+.container_build-window20{
+ 	background-color: rebeccapurple;
+ 	width: 100%;
+ 	height: 5em;
+ 	position: relative;
+ 	top: 2em;
+ }
+
+.build_window20{
+	background-color: #033852;
+	width: 2em;
+	height: 2em;
+	box-shadow: 4em 0 #033852, 0 3.5em #033852, 4em 3.5em #033852;
+}
+
+
+
+@keyframes rodar{
+  0%{
+  left: 0;
+  }
+
+  100%{
+   left: -230em;
+  }
+}
+
+.container_walk{
+	background-color: orangered;
+	background-image: linear-gradient(#373703,orangered);
+	width: 100%;
+	height: 4em;
+	position: relative;
+}
+
+.container_lake{
+	background-color: blue;
+	width: 100%;
+	height: 2em;
+	position: relative;
+}
+
+.container_car{
+ 	background-image: linear-gradient(orangered,yellow);
+	width: 100%;
+	height: 10em;
+	overflow: hidden;
+	position: relative;
+}
+
+.container_car1{
+  	width: 31em;
+	height: 9em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	filter: drop-shadow(10px 50px);
+}
+
+.car_back{
+	background-color: gray;
+	width: 7em;
+	height: 3.6em;
+	border-radius: 4em;
+	position: absolute;
+	top: 1.2em;
+	left: 0.2em;
+	transform: rotate(155deg);
+}
+
+.car_back1{
+	background-color: gray;
+	width: 6em;
+	height: 2.6em;
+	border-radius: 4em;
+	position: absolute;
+	top: 3em;
+	overflow: hidden;
+	transform: rotate(25deg);
+}
+
+.back_border{
+	background-color: #181818;
+	width: 2em;
+	height: 5em;
+	transform: rotate(155deg);
+	position: relative;
+	top: -1em;
+}
+
+.car{
+	background-color: gray;
+ 	width: 19em;
+	height: 7em;
+	border-radius: 4em;
+	position: relative;
+	left: 3em;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.container_window1{
+	background-color: cadetblue;
+	width: 7em;
+	height: 3em;
+	position: absolute;
+	top: -0.2em;
+	left: -1.9em;
+    border-top-left-radius: 11em;
+    border-top: 0.3em solid;
+    border-left: 0.3em solid;
+    border-right: 0.3em solid;
+    border-bottom: 0.3em solid;
+}
+
+
+.container_window2{
+	background-color: cadetblue;
+	width: 12em;
+	height: 2.6em;
+	border: 0.2em solid;
+	position: absolute;
+	top: 0.3em;
+	left: 5.9em;
+	z-index: 10;
+	border-radius: 0 5em 0 0;
+ }
+
+.window_in1{
+	background-color: gray;
+	width: 100%;
+	height: 1.7em;
+	transform: rotate(-25deg);
+	border-bottom: 0.2em solid;
+}
+
+.window_in2{
+	background-color: black;
+	width: 10%;
+	height: 1.7em;
+	border-radius: 0 2em 2em 0;
+	position: relative;
+	top: 1.6em;
+	left: 11.3em;
+}
+
+
+
+.car_border-bottom{
+ background-color: #181818;
+ width: 100%;
+ height: 2em;
+ position: relative;
+ top: 6.1em;
+ left: 2em;
+}
+
+
+.car_border-bottom1{
+ background-color: #181818;
+ width: 70%;
+ height: 2em;
+ position: relative;
+ top: 3.1em;
+ left: 0.1em;
+}
+
+
+.car_front{
+	background-color: gray;
+ 	width: 13em;
+	height: 3em;
+	border-radius: 4em;
+	display: inline-block;
+	transform: rotate(15deg);
+	position: absolute; 
+	top: 2em;
+	left: 15.1em;
+	overflow: hidden;
+ } 
+
+ .front_border{
+ 	background-color: black;
+  	width: 4em;
+ 	height: 3em;
+ 	position: absolute;
+ 	left: 15em;
+ }    
+
+.car_front1{
+	background-color: gray;
+	width: 13em;
+	height: 4em;
+	border-radius: 4em;
+	display: inline-block;
+	position: absolute;
+	left: 14em;
+    top: 3em;
+    overflow: hidden;
+}
+
+
+.car_front2{
+	background-color: gray;
+	width: 5.8em;
+	height: 3em;
+	border-radius: 4em;
+	display: inline-block;
+	position: relative;
+	top: 3.5em;
+	left: 23.7em;
+ 	position: absolute;
+ 	overflow: hidden;
+ 	transform: rotate(-25deg);
+}
+
+.car_border-front{
+   background-color: #181818;
+   width: 2em;
+   height: 4em;
+   position: absolute;
+   left: 3.8em;
+}
+
+
+.car_border-front1{
+   background-color: #181818;
+   width: 2em;
+   height: 2em;
+   position: absolute;
+   top: 2em;
+   left: 2.1em;
+}
+
+.container_whell{
+    width: 5em;
+    height: 5em;
+    position: relative;
+    top: -3em;
+    left: 4em;
+}
+
+.back_whell{
+     background-image: linear-gradient(black 20%,gray 40%,black 60%);
+   width: 4em;
+    height: 4em;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 3em;
+    border-top: 0.2em solid black;
+    border-left: 0.2em solid black;
+    border-right: 0.2em solid black;
+    animation-name: race;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes race{
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(2turn);
+	}
+}
+
+.back_whell1{
+ background-color: #4f4d4d;
+ width: 2.5em;
+ height: 2.5em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0.6em;
+ border-radius: 3em;
+}
+
+.back_whell-center{
+ background-color: black;
+ width: 0.8em;
+ height: 0.8em;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 2em;
+ position: relative;
+ top: 0.9em;
+}
+
+.container_whell1{
+  width: 5em;
+  height: 5em;
+  position: relative;
+  top: -8em;
+  left: 22em;
+}
+
+
+.front_whell{
+    background-color: black;
+	background-image: 	linear-gradient(black 20%,gray 40%,black 60%);
+	width: 4em;
+    height: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3em;
+    border-top: 0.2em solid black;
+    border-left: 0.2em solid black;
+    border-right: 0.2em solid black;
+    animation-name: race;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+
+}
+
+.front_whell1{
+ background-color: #4f4d4d;
+ width: 2.5em;
+ height: 2.5em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0.6em;
+ border-radius: 3em;
+}
+
+
+
+.front_whell-center{
+ background-color: black;
+ width: 0.8em;
+ height: 0.8em;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 2em;
+ position: relative;
+ top: 0.8em;
+}
+
+
+@media screen and (max-width: 1000px){
+
+.container_sun{
+	position: absolute;
+	top: 9em;
+	left: 10%;
+   }
+}
